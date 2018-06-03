@@ -14,7 +14,7 @@ import java.util.Map;
 public class Demo {
 	public static void main(String[] args) {
 		StringBuilder sb = new StringBuilder();
-		String str = "100@77,20@78,50@77,200@79,300@77,1024@92,500@76";
+		String str = "100@77,20@78,50@77,200@79,300@77,1024@92,500@76ssssss";
 		String[] split = str.split(",");
 		for (String string : split) {
 			String[] split2 = string.split("@");
